@@ -11,8 +11,8 @@
 <body>
     <div class="container-fluid">
         <div class="row blue mb-1">
-            <div class="col-2 offset-1 mt-2" style="color: aliceblue;"><img src="img/contact.png" alt="contact" width="20px">Helpline : 9978155555</div>
-            <div class="col-3 mt-2"><img src="img/email.png" alt="E-mail" width="20px"><a href="" class="a">@infoHarivandanacollege</a></div>
+            <div class="col-sm-2 offset-1 mt-2" style="color: aliceblue;"><img src="img/contact.png" alt="contact" width="20px">Helpline : 9978155555</div>
+            <div class="col-sm-3 mt-2 "><img src="img/email.png" alt="E-mail" width="20px"><a href="" class="a">@infoHarivandanacollege</a></div>
         <div class="col" id="menu">
             <ul>
                 <li><a href="" class="a">Student Corner</a></li>
@@ -29,38 +29,61 @@
             <div class="col mb-3" id="btn">
                 <button class="button" style="float: right;"><a href="" class="a">ADDMISION</a></button>
             </div>
-            <div class="col mt-3">
-                <img src="img/logo1.jpeg" alt="">
+            <div class="col-sm mt-3 year">
+                <img src="img/logo1.jpeg" alt="" class="year">
             </div>
         </div>
         <div class="row blue" id="menu">   
+            
             <div class="col offset-1" id="menu1">
-                <ul>
-                    <li><a href="" class="a">HOME</a></li>
-                    <li><a href="" class="a">DESK</a></li>
-                    <li><a href="" class="a">CAMPUS</a></li>
-                    <li><a href="" class="a">FACULTY</a></li>
-                    <li><a href="" class="a">
-                        <select name="" id="">
-                            <option value="">GALLERY</option>
+                <nav class="navbar">
+    
+                    <!-- NAVIGATION MENU -->
+                    <ul class="nav-links">
+                
+                      <!-- USING CHECKBOX HACK -->
+                      <input type="checkbox" id="checkbox_toggle" />
+                      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                
+                      <!-- NAVIGATION MENUS -->
+                      <div class="menu">
+                
+                        <li><a href="" class="a">Home</a></li>
+                        <li><a href="" class="a">DESK</a></li>
+                        <li><a href="" class="a">CAMPUS</a></li>
+                        <li><a href="" class="a">FACULTY</a></li>
+                        
+                        <li class="services">
+                            <a href="/" class="a">GALLERY</a>
+                  
+                            <!-- DROPDOWN MENU -->
+                            <!-- <ul class="dropdown">
+                              <li><a href="/">Dropdown 1 </a></li>
+                              <li><a href="/">Dropdown 2</a></li>
+                              <li><a href="/">Dropdown 2</a></li>
+                              <li><a href="/">Dropdown 3</a></li>
+                              <li><a href="/">Dropdown 4</a></li>
+                            </ul> -->
+                          </li>
+
+                        <li><a href="" class="a">
+                            <select name="" id="">
+                                <option value="">NEWS & EVENT</option>
+                            </select></a>
+                        </li>
+                        <li><a href="" class="a">
+                            <select name="" id="">
+                            <option value="">PUBLICATION</option>
                         </select></a>
-                    </li>
-                    <li><a href="" class="a">
-                        <select name="" id="">
-                            <option value="">NEWS & EVENT</option>
-                        </select></a>
-                    </li>
-                    <li><a href="" class="a">
-                        <select name="" id="">
-                        <option value="">PUBLICATION</option>
-                    </select></a>
-                    </li>
-                    <li><a href="" class="a">IQAC</a></li>
-                    <li><a href="" class="a">RESEARCH</a></li>
-                    <li><a href="" class="a">NIRF</a></li>
-                    <li><a href="" class="a">CONTACT</a></li>
-                    <li><a href="" class="a">COMPLAIN</a></li>
-                </ul>
+                        </li>
+                        <li><a href="" class="a">IQAC</a></li>
+                        <li><a href="" class="a">RESEARCH</a></li>
+                        <li><a href="" class="a">NIRF</a></li>
+                        <li><a href="" class="a">CONTACT</a></li>
+                        <li><a href="" class="a">COMPLAIN</a></li>
+                      </div>
+                    </ul>
+                  </nav>
             </div>
         </div>
         <div class="row">
