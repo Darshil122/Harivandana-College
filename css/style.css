@@ -9,7 +9,7 @@
 .khaki{
     background-color:lightgoldenrodyellow;
     color: black;
-    align-content: center;
+    padding-left: 150px;
 }
 .a{
     color: aliceblue;
@@ -275,6 +275,12 @@ select{
 .year{
         text-decoration: none;
 }
+.pic{
+    margin-left: -15px;
+}
+.whvc{
+    margin-left: 129px;
+}
 
   .navbar {
     display: flex;
@@ -407,4 +413,28 @@ select{
         color: #fff;
 
       }
+      .pic{
+        height: 125px;
+      }
+      .khaki{
+        font-size: xx-small;
+        padding-left: 0px;
+      }
+      .whvc{
+        margin-left: 30px;
+      }
+      /* #row1{
+    position: relative;
+    justify-content: center;
+    text-align: left;
+    flex-basis: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:rgb(224, 234, 253);
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    } */
+    #icon3{
+        margin-left: 50px;
+    }
 }
