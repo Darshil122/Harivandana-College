@@ -9,7 +9,7 @@
 .khaki{
     background-color:lightgoldenrodyellow;
     color: black;
-    align-content: center;
+    padding-left: 150px;
 }
 .a{
     color: aliceblue;
@@ -18,12 +18,15 @@
 }
 #menu ul{
     list-style: none;
+    display: flex;
     
 }
 #menu ul li{
     display: inline-block;
     margin-left: 20px;
     padding-top: 11px;
+    display: flex;
+
 }
 .button{
     background-color: rgb(47, 106, 200);
@@ -49,7 +52,7 @@ select{
     position: relative;
     justify-content: center;
     text-align: left;
-    flex-basis: 25%;
+    /* flex-basis: 25%; */
     margin-top: 50px;
     margin-bottom: 50px;
     background-color:rgb(224, 234, 253);
@@ -60,8 +63,6 @@ select{
         margin-left: 15%;
         margin-top: 50px;
         margin-bottom: 50px;
-        background: linear-gradient(to right #00093c, #2d0b00);
-    border-top-left-radius: 125px;
 }
 #icon2{
     margin-top: 65px;
@@ -83,6 +84,7 @@ select{
     margin-top: 70px;
     width: 300px;
     height: 300px;
+    left: 150px;
 }
 #parent img{
     position: absolute;
@@ -153,17 +155,23 @@ select{
     width: 200px;
     max-width: 200px;
 }
-.calender .btn2{
+.btn2{
     position: absolute;
     top:350px;
     right: 100px;
     padding: 5px;
+    z-index: 9;
+    transition: all 0.4s;
+}
+.btn2:hover{
+    transform: scale(1.3);
 }
 #parent1{
     position: relative;
     margin-top: 70px;
     width: 300px;
     height: 300px;
+    left: 125px;
 }
 #parent1 img{
     position: absolute;
@@ -193,14 +201,15 @@ select{
     z-index: 10;
     border-radius: 10px;
 }
-#graduate ul{
-    list-style: none;
-    padding-bottom: 0px;    
+.graduate{
+    display: flex;
+    margin-left: 300px;
 }
-#graduate ul li{
-    display: inline-block;
-    margin-left: 50px;
-    padding-top: 0px;
+.graduateimg{
+    border-radius: 10px;
+}
+li{
+    list-style: none;
 }
 .row1{
     background-color: black;
@@ -209,6 +218,7 @@ select{
 .u{
     position: relative;
     text-align: left;
+    left: 130px;
 }
 .u ul{
     font-size: small;
@@ -268,4 +278,320 @@ select{
     position: relative;
     justify-content: center;
     color: #fff;
+}
+.year{
+        text-decoration: none;
+}
+.pic{
+    margin-left: -15px;
+}
+.whvc{
+    margin-left: 129px;
+}
+.mission{
+    border-radius: 20px;
+}
+.vision{
+    border-radius: 20px; 
+    margin-top: 35px;
+}
+.misvis{
+    display: none;
+    /* visibility: hidden; */
+}
+.natubhai{
+    display: none;
+}
+.misvis1{
+    display: block;
+}
+.commentimg{
+    border-radius: 25px;
+}
+.ddd{
+    margin-left: 200px;
+}
+.dd{
+    margin-top: -55px;
+    width: 100px;
+    /* margin-left: 200px; */
+}
+.jk{
+    margin-top: -55px;
+    width: 100px;
+}
+.jay{
+    margin-top: -55px;
+    width: 100px;
+    height: 130px;
+}
+.dishen{
+    margin-top: -55px;
+    width: 100px;
+    height: 130px;
+}
+.smit{
+    margin-top: -55px;
+    width: 100px;
+    height: 130px;
+}
+.ankur{
+    margin-top: -55px;
+    width: 100px;
+    height: 130px;
+}
+.j{
+    display: block;
+}
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(47, 106, 200);
+    color: #fff;
+  }
+  
+  .nav-links a {
+    color: #fff;
+  }
+  
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    /* font-size: 18px; */
+  }
+  
+  .menu li:hover {
+    background-color: rgb(47, 106, 200);
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .menu li {
+    padding: 0px 5px;
+  }
+
+  /* .services {
+    position: relative; 
+  }
+  
+  .dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em ;
+    position: absolute;
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+  }
+  
+  .dropdown li + li {
+    margin-top: 10px;
+  }
+  
+  .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+  }
+  
+  .services:hover .dropdown {
+    display: block;
+  } */
+
+  
+  input[type=checkbox] {
+    display: none;
+  }  
+  
+  /* HAMBURGER MENU */
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+  
+  /* APPLYING MEDIA QUERIES */
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    .container-fluid{
+        flex-wrap: nowrap;
+        overflow: hidden;
+        font-size: smaller;
+    }
+    #menu{
+            display: flex;
+            font-size: small;
+            margin-left:-35px;
+            /* padding-left: 0rem; */
+    }   
+    .blue{
+        margin-top: 30%;
+    }
+    .ml{
+        margin-left: 0px;
+    }
+    #btn{
+        margin-top: 130px;
+        margin-bottom: 0rem;
+    }
+    .year{
+        top: 100px;
+    }
+    .navbar{
+        padding: 0px;
+        --bs-navbar-padding-x: 0rem;
+        --bs-navbar-padding-y: 0rem;
+    }
+    .nav-links{
+        --bs-navbar-padding-x: 0rem;
+        --bs-navbar-padding-y: 0rem;
+    }
+    .menu {
+        display:none;
+        position: absolute;
+        background-color:rgb(47, 106, 200);
+        right: 0;
+        left: 0;
+        text-align: center;
+      }
+    
+      .menu li:hover {
+        display: inline-block;
+        background-color:rgb(47, 106, 200);
+        transition: 0.3s ease;
+      }
+    
+      .menu li + li {
+        margin-top: 5px;
+      }
+    
+      input[type=checkbox]:checked ~ .menu {
+        display: block;
+      }
+    
+      .hamburger {
+        display: block;
+        color: #fff;
+
+      }
+      .pic{
+        height: 125px;
+      }
+      .khaki{
+        font-size: xx-small;
+        padding-left: 0px;
+      }
+      .whvc{
+        margin-left: 30px;
+      }
+      #icon3{
+            margin-left: 50px;
+      }
+      #icon2{
+        margin-bottom: -50px;
+      }
+      .mission{
+        height: 80px;
+        margin-left: 100px;
+      }
+      .vision{
+        height: 80px;
+        margin-left: 100px;
+        margin-bottom: 0px;
+      }
+      .misvis1{
+            display: none;
+      }
+      .misvis{
+            display: block;     
+      }
+      .natubhai{
+        display: block;
+        margin-left: 0px;
+        width: fit-content;
+      }
+      #parent{
+        position: relative;
+        margin-top: 70px;
+        width: 300px;
+        height: 300px;
+        left: 0px;
+    }
+    #latest{
+        position: relative;
+        margin-top: 70px;
+        padding: 30px;
+        width: 550px;
+        font-size: xx-small;
+        height: 450px;
+        border-radius: 10px;
+    }
+    .news{
+        background: #fff;
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        right: 0px;
+        z-index: 9;
+    }
+    .btn2{
+        position: absolute;
+        top:15px;
+        right: 0px;
+        padding: 0px;
+        width: 50px;
+        font-size: xx-small;
+        z-index: 9;
+    }
+    .commentimg{
+        width: 10px;
+    }
+    #parent1{
+        position: relative;
+        margin-top: 70px;
+        width: 300px;
+        height: 300px;
+        left: -25px;
+    }
+    .graduate{
+        display: flex;
+        margin-left: -30px;
+    }
+    .graduateimg{
+        width: 75px;
+    }
+    .ddd{
+        margin-left: 0px;
+    }
+    .dd{
+        margin-top: -55px;
+        width: 75px;
+    }
+    .jk{
+        margin-top: -55px;
+        width: 75px;
+    }
+    .jay{
+        margin-top: -55px;
+        width: 75px;
+        height: 100px;
+    }
+    .dishen{
+        display: none;
+    }
+    .smit{
+        display: none;
+    }
+    .ankur{
+        display: none;
+    }
+    .j{
+        display: none;
+    }
+    .img2{
+        width: 80px;
+    }
+    .u{
+        left: 0px;
+    }
 }
