@@ -201,14 +201,15 @@ select{
     z-index: 10;
     border-radius: 10px;
 }
-#graduate ul{
-    list-style: none;
-    padding-bottom: 0px;    
+.graduate{
+    display: flex;
+    margin-left: 300px;
 }
-#graduate ul li{
-    display: inline-block;
-    margin-left: 50px;
-    padding-top: 0px;
+.graduateimg{
+    border-radius: 10px;
+}
+li{
+    list-style: none;
 }
 .row1{
     background-color: black;
@@ -217,6 +218,7 @@ select{
 .u{
     position: relative;
     text-align: left;
+    left: 130px;
 }
 .u ul{
     font-size: small;
@@ -305,6 +307,41 @@ select{
 }
 .commentimg{
     border-radius: 25px;
+}
+.ddd{
+    margin-left: 200px;
+}
+.dd{
+    margin-top: -55px;
+    width: 100px;
+    /* margin-left: 200px; */
+}
+.jk{
+    margin-top: -55px;
+    width: 100px;
+}
+.jay{
+    margin-top: -55px;
+    width: 100px;
+    height: 130px;
+}
+.dishen{
+    margin-top: -55px;
+    width: 100px;
+    height: 130px;
+}
+.smit{
+    margin-top: -55px;
+    width: 100px;
+    height: 130px;
+}
+.ankur{
+    margin-top: -55px;
+    width: 100px;
+    height: 130px;
+}
+.j{
+    display: block;
 }
   .navbar {
     display: flex;
@@ -515,5 +552,46 @@ select{
         width: 300px;
         height: 300px;
         left: -25px;
+    }
+    .graduate{
+        display: flex;
+        margin-left: -30px;
+    }
+    .graduateimg{
+        width: 75px;
+    }
+    .ddd{
+        margin-left: 0px;
+    }
+    .dd{
+        margin-top: -55px;
+        width: 75px;
+    }
+    .jk{
+        margin-top: -55px;
+        width: 75px;
+    }
+    .jay{
+        margin-top: -55px;
+        width: 75px;
+        height: 100px;
+    }
+    .dishen{
+        display: none;
+    }
+    .smit{
+        display: none;
+    }
+    .ankur{
+        display: none;
+    }
+    .j{
+        display: none;
+    }
+    .img2{
+        width: 80px;
+    }
+    .u{
+        left: 0px;
     }
 }
