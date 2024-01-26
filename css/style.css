@@ -218,7 +218,7 @@ li{
 .u{
     position: relative;
     text-align: left;
-    /* left: 130px; */
+    left: 130px;
 }
 .u ul{
     font-size: small;
