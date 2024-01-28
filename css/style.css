@@ -6,6 +6,13 @@
     background-color: rgb(47, 106, 200);
 
 }
+.contact{
+    margin-left: 150px;
+}
+.call{
+    background-color: rgb(47, 106, 200);
+    color: aliceblue;
+}
 .khaki{
     background-color:lightgoldenrodyellow;
     color: black;
@@ -393,11 +400,11 @@ li{
     padding: 0.5em 1em;
     width: 8em;
     text-align: center;
-  }
+  }*/
   
   .services:hover .dropdown {
     display: block;
-  } */
+  } 
 
   
   input[type=checkbox] {
@@ -597,5 +604,14 @@ li{
     }
     .u{
         left: 0px;
+    }
+    .contact{
+        margin-left: 0px;
+    }
+    .call{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        text-decoration: none;
+        border: none;
     }
 }
