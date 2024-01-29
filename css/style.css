@@ -1,7 +1,7 @@
 .container-fluid{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow: hidden;
 }
-
 .blue{
     background-color: rgb(47, 106, 200);
 
@@ -560,9 +560,22 @@ li{
         height: 300px;
         left: -10px;
     }
+    .white1{
+        background: rgb(255, 255, 255);
+        width: 280px;
+        height: 355px;
+        position: absolute;
+        top: -10px;
+        left: 50px;
+        z-index: 10;
+        border-radius: 10px;
+    }
+    
     .graduate{
         display: flex;
+        flex-wrap: wrap;
         margin-left: -15px;
+        justify-content: center;
     }
     .graduateimg{
         width: 55px;
