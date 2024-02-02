@@ -350,6 +350,9 @@ li{
 .j{
     display: block;
 }
+.mr{
+    margin-left: 0px;
+}
   .navbar {
     display: flex;
     align-items: center;
@@ -576,6 +579,9 @@ li{
         flex-wrap: wrap;
         margin-left: -15px;
         justify-content: center;
+    }
+    .mr{
+        margin-left: -15px;
     }
     .graduateimg{
         width: 55px;
