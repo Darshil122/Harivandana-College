@@ -7,11 +7,12 @@
 
 }
 .contact{
-    margin-left: 150px;
+    margin-left: 130px;
 }
 .call{
     background-color: rgb(47, 106, 200);
     color: aliceblue;
+    padding-top: 0.5rem;
 }
 .khaki{
     background-color:lightgoldenrodyellow;
@@ -435,7 +436,7 @@ li{
             /* padding-left: 0rem; */
     }   
     .blue{
-        margin-top: 30%;
+        margin-right: 0px;
     }
     .ml{
         margin-left: 0px;
@@ -632,5 +633,6 @@ li{
         color: black;
         text-decoration: none;
         border: none;
+        margin-top: 2%;
     }
 }
