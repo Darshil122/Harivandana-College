@@ -7,11 +7,12 @@
 
 }
 .contact{
-    margin-left: 150px;
+    margin-left: 130px;
 }
 .call{
     background-color: rgb(47, 106, 200);
     color: aliceblue;
+    padding-top: 0.5rem;
 }
 .khaki{
     background-color:lightgoldenrodyellow;
@@ -435,7 +436,7 @@ li{
             /* padding-left: 0rem; */
     }   
     .blue{
-        margin-top: 30%;
+        margin-right: 0px;
     }
     .ml{
         margin-left: 0px;
@@ -525,7 +526,7 @@ li{
         margin-top: 70px;
         width: 300px;
         height: 300px;
-        left:  5px;
+        left:  20px;
     }
     #latest{
         position: relative;
@@ -561,7 +562,7 @@ li{
         margin-top: 70px;
         width: 300px;
         height: 300px;
-        left: -10px;
+        left: 0px;
     }
     .white1{
         background: rgb(255, 255, 255);
@@ -581,7 +582,7 @@ li{
         justify-content: center;
     }
     .mr{
-        margin-left: -15px;
+        margin-left: -20px;
     }
     .graduateimg{
         width: 55px;
@@ -619,7 +620,7 @@ li{
         display: none;
     }
     .img2{
-        width: 80px;
+        width: 85px;
     }
     .u{
         left: 0px;
@@ -632,5 +633,6 @@ li{
         color: black;
         text-decoration: none;
         border: none;
+        margin-top: 2%;
     }
 }
