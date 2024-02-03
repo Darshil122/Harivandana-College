@@ -526,7 +526,7 @@ li{
         margin-top: 70px;
         width: 300px;
         height: 300px;
-        left:  5px;
+        left:  20px;
     }
     #latest{
         position: relative;
@@ -562,7 +562,7 @@ li{
         margin-top: 70px;
         width: 300px;
         height: 300px;
-        left: -10px;
+        left: 0px;
     }
     .white1{
         background: rgb(255, 255, 255);
@@ -582,7 +582,7 @@ li{
         justify-content: center;
     }
     .mr{
-        margin-left: -15px;
+        margin-left: -20px;
     }
     .graduateimg{
         width: 55px;
