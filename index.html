@@ -36,59 +36,39 @@
                 <img src="img/logo1.jpeg" alt="" class="year">
             </div>
         </div>
-        <div class="row blue" id="menu">   
-            
-            <div class="col offset-1" id="menu1">
-                <nav class="navbar">
-    
-                    <!-- NAVIGATION MENU -->
-                    <ul class="nav-links">
-                
-                      <!-- USING CHECKBOX HACK -->
-                      <input type="checkbox" id="checkbox_toggle" data-toggle="collapse">
-                      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-                
-                      <!-- NAVIGATION MENUS -->
-                      <div class="menu">
-                
-                        <li><a href="" class="a">Home</a></li>
-                        <li><a href="" class="a">DESK</a></li>
-                        <li><a href="" class="a">CAMPUS</a></li>
-                        <li><a href="" class="a">FACULTY</a></li>
-                        
-                        <li class="services">
-                            <a href="/" class="a">GALLERY</a>
-                  
-                            <!-- DROPDOWN MENU -->
-                            <!-- <ul class="dropdown">
-                              <li><a href="/">Dropdown 1 </a></li>
-                              <li><a href="/">Dropdown 2</a></li>
-                              <li><a href="/">Dropdown 2</a></li>
-                              <li><a href="/">Dropdown 3</a></li>
-                              <li><a href="/">Dropdown 4</a></li>
-                            </ul> -->
-                          </li>
-
-                        <li><a href="" class="a">
-                            <select name="" id="">
-                                <option value="">NEWS & EVENT</option>
-                            </select></a>
-                        </li>
-                        <li><a href="" class="a">
-                            <select name="" id="">
-                            <option value="">PUBLICATION</option>
-                        </select></a>
-                        </li>
-                        <li><a href="" class="a">IQAC</a></li>
-                        <li><a href="" class="a">RESEARCH</a></li>
-                        <li><a href="" class="a">NIRF</a></li>
-                        <li><a href="" class="a">CONTACT</a></li>
-                        <li><a href="" class="a">COMPLAIN</a></li>
-                      </div>
-                    </ul>
-                  </nav>
+        <div class="row blue">   
+            <div class="col offset-1">
+                <div class="topnav" id="myTopnav">
+                    <a href="">Home</a>
+                    <a href="">DESK</a>
+                    <a href="">CAMPUS</a>
+                    <a href="">FACULTY</a>
+                    <a href="">GALLERY</a>
+                    <a href="">NEWS & EVENT</a>
+                    <a href="">PUBLICATION</a>
+                    <a href="">IQAC</a>
+                    <a href="">RESEARCH</a>
+                    <a href="">NIRF</a>
+                    <a href="">CONTACT</a>
+                    <a href="">COMPLAIN</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
             </div>
         </div>
+        <!-- For Navbar -->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+
         <div class="row">
             <div class="col">
                 <img src="img/pic.jpeg" alt="" width="100%" class="pic">
