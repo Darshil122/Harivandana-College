@@ -294,10 +294,10 @@
             <div class="row">
                 <h4 align="center" style="margin-top: 40px;"><b>Courses</b></h4>
     <div align="center" style="padding:30px 20px;">
-        <button class="button" style="padding: 5px 35px;">Under Graduate</button>
-        <button class="button" style="background-color: #f2f7ff; padding: 5px 35px; color:darkgray;">Post Graduate</button>
+        <button class="button" style="padding: 5px 35px;" id="undergraduateButton">Under Graduate</button>
+        <button class="button" style="background-color: #f2f7ff; padding: 5px 35px; color:darkgray;" id="postgraduateButton">Post Graduate</button>
     </div>
-    <div align="center" class="col graduate">
+    <div align="center" class="col graduate section" id="undergraduateSection">
             <ul>
                 <li><img src="img/graduate.png" alt="" class="graduateimg"></li>
                 <li>B.C.A</li>
@@ -324,6 +324,34 @@
                 <li>DMLT</li>
             </ul>
       </div>  
+
+      <div align="center" class="col graduate section" id="postgraduateSection">
+        <ul>
+            <li><img src="img/graduate.png" alt="" class="graduateimg"></li>
+            <li>M.C.A</li>
+        </ul>
+        <ul>
+            <li><img src="img/graduate.png" alt="" class="graduateimg"></li>
+            <li>M.Sc(IT)</li>
+        </ul>
+        <ul>
+            <li><img src="img/graduate.png" alt="" class="graduateimg"></li>
+            <li>M.Com</li>
+        </ul>
+        <ul class="mr">
+            <li><img src="img/graduate.png" alt="" class="graduateimg" style="margin-left: 0px;"></li>
+            <li>M.Sc</li>
+            <li>(chemistry)</li>
+        </ul>
+        <ul class="mr">
+            <li><img src="img/graduate.png" alt="" class="graduateimg"></li>
+            <li>M.Sc.</li>
+        </ul>
+        <ul>
+            <li><img src="img/graduate.png" alt="" class="graduateimg"></li>
+            <li>P.G.D.C.A</li>
+        </ul>
+  </div>  
                     <div class="row">
                         <div class="col mt-5">
                         <h4 align="center"><b>College Ranker</b></h4>
@@ -440,7 +468,21 @@ This Week    This Month
             x.className = "topnav";
           }
         }
-        
+        //Courses
+        const undergraduateButton = document.getElementById('undergraduateButton');
+        const postgraduateButton = document.getElementById('postgraduateButton');
+        const undergraduateSection = document.getElementById('undergraduateSection');
+        const postgraduateSection = document.getElementById('postgraduateSection');
+
+        undergraduateButton.addEventListener('click', () => {
+            undergraduateSection.style.display = 'block';
+            postgraduateSection.style.display = 'none';
+        });
+
+        postgraduateButton.addEventListener('click', () => {
+            undergraduateSection.style.display = 'none';
+            postgraduateSection.style.display = 'block';
+        });
         </script>
 </body>
 </html>

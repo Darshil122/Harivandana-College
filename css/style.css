@@ -210,8 +210,7 @@ select{
     border-radius: 10px;
 }
 .graduate{
-    display: flex;
-    margin-left: 300px;
+  
 }
 .graduateimg{
     border-radius: 10px;
@@ -353,6 +352,14 @@ li{
 }
 .mr{
     margin-left: 0px;
+}
+.section {
+    display: none;
+}
+#undergraduateSection {
+    display: block;
+    display: flex;
+    margin-left: 300px;
 }
 
 .topnav {
