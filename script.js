@@ -23,4 +23,6 @@ function myFunction() {
       undergraduateSection.style.display = 'none';
       postgraduateSection.style.display = 'block';
       postgraduateSection.style.display = 'flex';
+      postgraduateSection.style.marginLeft = '300px';
+
   });
