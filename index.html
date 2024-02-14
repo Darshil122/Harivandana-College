@@ -297,7 +297,7 @@
         <button class="button" style="padding: 5px 35px;" id="undergraduateButton">Under Graduate</button>
         <button class="button" style="background-color: #f2f7ff; padding: 5px 35px; color:darkgray;" id="postgraduateButton">Post Graduate</button>
     </div>
-    <div align="center" class="col graduate section" id="undergraduateSection">
+    <div align="center" class="section" id="undergraduateSection" style="display: flex;">
             <ul>
                 <li><img src="img/graduate.png" alt="" class="graduateimg"></li>
                 <li>B.C.A</li>
@@ -325,7 +325,7 @@
             </ul>
       </div>  
 
-      <div align="center" class="col graduate section" id="postgraduateSection">
+      <div align="center" class="section" id="postgraduateSection">
         <ul>
             <li><img src="img/graduate.png" alt="" class="graduateimg"></li>
             <li>M.C.A</li>
@@ -476,12 +476,14 @@ This Week    This Month
 
         undergraduateButton.addEventListener('click', () => {
             undergraduateSection.style.display = 'block';
+            undergraduateSection.style.display = 'flex';
             postgraduateSection.style.display = 'none';
         });
 
         postgraduateButton.addEventListener('click', () => {
             undergraduateSection.style.display = 'none';
             postgraduateSection.style.display = 'block';
+            postgraduateSection.style.display = 'flex';
         });
         </script>
 </body>
