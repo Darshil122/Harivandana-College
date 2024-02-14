@@ -358,8 +358,10 @@ li{
 }
 #undergraduateSection {
     display: block;
-    display: flex;
+}
+.graduate{
     margin-left: 300px;
+    display: flex;
 }
 
 .topnav {
