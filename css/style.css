@@ -597,12 +597,16 @@ li{
         border: none;
         margin-top: 2%;
     }
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child) {
+        display: none;
+    }
     .topnav a.icon {
     float: right;
     display: block;
     }
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {
+        position: relative;
+    }
     .topnav.responsive .icon {
     position: absolute;
     right: 0;
