@@ -22,8 +22,8 @@ function myFunction() {
   postgraduateButton.addEventListener('click', () => {
       undergraduateSection.style.display = 'none';
       postgraduateSection.style.display = 'block';
+      postgraduateSection.style.marginLeft = '300px';
       postgraduateSection.style.display = 'flex';
       postgraduateSection.classList.add(graduate);
-      postgraduateSection.style.marginLeft = '300px';
 
   });

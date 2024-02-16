@@ -613,4 +613,7 @@ li{
     display: block;
     text-align: left;
     }
+    /* #postgraduateSectin{
+        flex-wrap: nowrap;
+    } */
 }
