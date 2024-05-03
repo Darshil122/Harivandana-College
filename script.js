@@ -53,5 +53,4 @@ postgraduateButton.addEventListener('click', () => {
       postgraduateSection.style.display = 'flex';
       postgraduateSection.classList.add(graduate);
       postgraduateSection.style.marginLeft = '300px';
-
   });
